@@ -1,0 +1,5 @@
+/*.log
+/*.sqlite
+/output
+/sensitive.js
+/.idea
