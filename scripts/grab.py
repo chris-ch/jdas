@@ -283,6 +283,7 @@ def main(args):
                 html = BeautifulSoup(page.text, 'html.parser')
                 node_content = html.find(id='page-content')
                 if not node_content:
+                    logging.info('format change for url: %s', page_url)
                     node_content = html.find(id='xg_body')
 
                 if not node_content:
