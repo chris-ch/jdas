@@ -298,6 +298,10 @@ def main(args):
 
                 address_tags = node_content.find_all('a')
                 for address_tag in address_tags:
+                    if not address_tag.has_attr('href'):
+                        logging.warning('unable to process address: %s from %s', address_tag, page_url)
+                        continue
+
                     if _IOC_TAG in address_tag['href']:
                         target = address_tag['href'].split(_IOC_TAG)[-1]
                         address_tag['href'] = '/product' + target
