@@ -64,6 +64,8 @@ pages_set = {
 
         ("9. Watercolours", "http://janedavenport.ning.com/group/supplies-me/page/9-watercolour"),
 
+        ("All links", "http://janedavenport.ning.com/group/supplies-me/page/all-supplies-me-links")
+
     ],
 
     "BEAUTIFUL FACES": [
