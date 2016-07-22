@@ -26,6 +26,8 @@ East Coast Park and more doesn't even have a postal code. So, again if we are ab
 then we will be able to get a better list of places using the categories and places that fall under those categories.
 If both can be done, then, we will have a perfect list of places in Singapore. Let me know if you can do this
 
+Singapore coord: 1'30N / 103'34E , 1'09N / 104'09E  (approx 60km x 40km)
+
 """
 
 """
