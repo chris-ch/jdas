@@ -283,8 +283,8 @@ def main(args):
                 html = BeautifulSoup(page.text, 'html.parser')
                 node_content = html.find(id='page-content')
                 if not node_content:
-                    logging.info('format change for url: %s', page_url)
-                    node_content = html.find(id='xg_body')
+                    logging.info('specific format for url: %s', page_url)
+                    node_content = html.find('div', {'class': 'xg_span-12 xg_column'})
 
                 if not node_content:
                     logging.error('no data found for url: %s', page_url)
